@@ -20,6 +20,7 @@ A simple Tic Tac Toe game implemented using HTML, CSS, and JavaScript.
 ## Introduction
 
 This project is a classic Tic Tac Toe game where two players can play against each other. The game board is a 3x3 grid, and players take turns to mark a cell with their symbol (X or O). The first player to get three of their symbols in a row (vertically, horizontally, or diagonally) wins the game. If all cells are filled without any player winning, the game is declared a draw.
+This project is deployed on github pages to play [click here](https://shivanshkansal19.github.io/Tic-Tac-Toe/)
 
 ## Features
 
@@ -78,4 +79,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Feel free to customize the content according to your needs and add any additional information that might be relevant.
 
 ## Play the Game
-You can play the game online here.
+You can play the game online [here](https://shivanshkansal19.github.io/Tic-Tac-Toe/).

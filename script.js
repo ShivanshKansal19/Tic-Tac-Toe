@@ -85,13 +85,13 @@ const gameController = (() => {
   const makeMove = (tileIndex) => {
     gameBoard.setTile(tileIndex, currPlayer);
     if (soundActive) {
-      const tapAudio = new Audio("aud/tap.wav");
+      const tapAudio = new Audio("/aud/tap.wav");
       tapAudio.play();
     }
     if (checkWinner(tileIndex)) {
       currPlayer = "";
       if (soundActive) {
-        const gameOverAudio = new Audio("aud/game-over.wav");
+        const gameOverAudio = new Audio("/aud/game-over.wav");
         gameOverAudio.play();
       }
       return;

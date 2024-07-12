@@ -55,7 +55,7 @@ const displayController = (() => {
 
 const gameController = (() => {
   let isOver = false;
-  let currPlayer = "";
+  let currPlayer = "X";
   let soundActive = true;
   const muteButton = document.querySelector(".mute-button");
 

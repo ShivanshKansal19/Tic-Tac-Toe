@@ -57,7 +57,6 @@ The game will indicate when a player has won or if the game is a draw.
 Click the "Restart" button to reset the game board and start a new game.
 ## Project Structure
 ```
-Copy code
 tic-tac-toe/
 │
 ├── index.html       # Main HTML file
